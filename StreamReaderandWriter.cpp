@@ -3,3 +3,12 @@
 #include <string>
 using namespace std;
 
+int main()
+{
+    // deklarasi variabel baris untuk menyimpan data string
+    string baris;
+
+    // membuka file dalam mode tulis
+    ofstream outfile;
+    // menunjukan ke sebuah nama file
+    
