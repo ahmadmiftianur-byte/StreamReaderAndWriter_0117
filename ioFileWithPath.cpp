@@ -13,4 +13,9 @@ int main()
 
     // membuat file dalam mode menulis
     ofstream outfile;
+    // menunjuk ke sebuah nama file dengan ekstensi txt
+    outfile.open("D:\\pemdas smstr 2\\tes writer\\" + NamaFile + ".txt", ios::out);
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
     
